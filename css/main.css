@@ -1,4 +1,13 @@
+:root {
+    --bkcolor: #222;
+    --txtcolor: white;
+}
+
 body {
-    color: white;
-    background-color: #222;
+    color: var(--txtcolor);
+    background-color: var(--bkcolor);
+    text-align: center;
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
 }
